@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SSM_Demo1_Domain" />
+        <module name="SSM_Demo1_Web1" />
+        <module name="SSM_Demo1_Dao" />
+        <module name="springSecurityTestDemo2" />
+        <module name="SSM_Demo1_Utils" />
+        <module name="SSM_Demo1_Service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springSecurityTestDemo1" target="1.8" />
+      <module name="SSM_Demo1_Web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
